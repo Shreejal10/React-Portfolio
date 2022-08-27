@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import { FaBars, FaTimes, FaGithub, FaFacebook, FaInstagram, } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { Link } from 'react-scroll'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => {
@@ -15,11 +16,31 @@ const Navbar = () => {
             </div>
             {/* Menu */}
             <ul className='hidden md:flex'>
-                <li className='hover:text-[#44BB88]'>Home</li>
-                <li className='hover:text-[#44BB88]'>About</li>
-                <li className='hover:text-[#44BB88]'>Skills</li>
-                <li className='hover:text-[#44BB88]'>Projects</li>
-                <li className='hover:text-[#44BB88]'>Contact</li>
+                <li className='hover:text-[#44BB88]'>
+                    <Link to="home" smooth={true} duration={300}>
+                        Home
+                    </Link>
+                </li>
+                <li className='hover:text-[#44BB88]'>
+                    <Link to="about" smooth={true} duration={300}>
+                        About
+                    </Link>
+                </li>
+                <li className='hover:text-[#44BB88]'>
+                    <Link to="skills" smooth={true} duration={300}>
+                        Skills
+                    </Link>
+                </li>
+                <li className='hover:text-[#44BB88]'>
+                    <Link to="work" smooth={true} duration={300}>
+                        Projects
+                    </Link>
+                </li>
+                <li className='hover:text-[#44BB88]'>
+                    <Link to="contact" smooth={true} duration={300}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             {/* hamburger */}
@@ -30,11 +51,31 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-1/2 w-1/2 h-screen bg-[#0a192f] md:hidden flex flex-col  justify-center items-center'}>
-                <li className='py-6 text-3xl hover:text-[#44BB88]'>Home</li>
-                <li className='py-6 text-3xl hover:text-[#44BB88]'>About</li>
-                <li className='py-6 text-3xl hover:text-[#44BB88]'>Skills</li>
-                <li className='py-6 text-3xl hover:text-[#44BB88]'>Projects</li>
-                <li className='py-6 text-3xl hover:text-[#44BB88]'>Contact</li>
+                <li className='py-6 text-3xl hover:text-[#44BB88]'>
+                    <Link onClick={handleClick} to="home" smooth={true} duration={300}>
+                        Home
+                    </Link>
+                </li>
+                <li className='py-6 text-3xl hover:text-[#44BB88]'>
+                    <Link onClick={handleClick} to="about" smooth={true} duration={300}>
+                        About
+                    </Link>
+                </li>
+                <li className='py-6 text-3xl hover:text-[#44BB88]'>
+                    <Link onClick={handleClick} to="skills" smooth={true} duration={300}>
+                        Skills
+                    </Link>
+                </li>
+                <li className='py-6 text-3xl hover:text-[#44BB88]'>
+                    <Link onClick={handleClick} to="work" smooth={true} duration={300}>
+                        Projects
+                    </Link>
+                </li>
+                <li className='py-6 text-3xl hover:text-[#44BB88]'>
+                    <Link onClick={handleClick} to="contact" smooth={true} duration={300}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             {/* Social icons */}
