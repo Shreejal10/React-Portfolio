@@ -3,7 +3,7 @@ import logo from '../assets/logo.png';
 import { FaBars, FaTimes, FaGithub, FaFacebook, FaInstagram, } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { Link } from 'react-scroll'
+import { NavLink } from 'react-router-dom'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => {
@@ -12,34 +12,36 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
-                <img src={logo} alt="logo" style={{ width: '50px' }} />
+                <NavLink to="/" end>
+                    <img src={logo} alt="logo" style={{ width: '50px' }} />
+                </NavLink>
             </div>
             {/* Menu */}
             <ul className='hidden md:flex'>
                 <li className='hover:text-[#44BB88]'>
-                    <Link to="home" smooth={true} duration={300}>
+                    <NavLink to="/" end  >
                         Home
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='hover:text-[#44BB88]'>
-                    <Link to="about" smooth={true} duration={300}>
+                    <NavLink to="/about">
                         About
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='hover:text-[#44BB88]'>
-                    <Link to="skills" smooth={true} duration={300}>
+                    <NavLink to="/skills">
                         Skills
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='hover:text-[#44BB88]'>
-                    <Link to="work" smooth={true} duration={300}>
+                    <NavLink to="/projects">
                         Projects
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='hover:text-[#44BB88]'>
-                    <Link to="contact" smooth={true} duration={300}>
+                    <NavLink to="/contact">
                         Contact
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
 
@@ -52,29 +54,29 @@ const Navbar = () => {
             {/* Mobile Menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-1/2 w-1/2 h-screen bg-[#0a192f] md:hidden flex flex-col  justify-center items-center'}>
                 <li className='py-6 text-3xl hover:text-[#44BB88]'>
-                    <Link onClick={handleClick} to="home" smooth={true} duration={300}>
+                    <NavLink onClick={handleClick} to="/" end>
                         Home
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='py-6 text-3xl hover:text-[#44BB88]'>
-                    <Link onClick={handleClick} to="about" smooth={true} duration={300}>
+                    <NavLink onClick={handleClick} to="/about">
                         About
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='py-6 text-3xl hover:text-[#44BB88]'>
-                    <Link onClick={handleClick} to="skills" smooth={true} duration={300}>
+                    <NavLink onClick={handleClick} to="/skills">
                         Skills
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='py-6 text-3xl hover:text-[#44BB88]'>
-                    <Link onClick={handleClick} to="work" smooth={true} duration={300}>
+                    <NavLink onClick={handleClick} to="/projects">
                         Projects
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='py-6 text-3xl hover:text-[#44BB88]'>
-                    <Link onClick={handleClick} to="contact" smooth={true} duration={300}>
+                    <NavLink onClick={handleClick} to="/contact">
                         Contact
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
 
