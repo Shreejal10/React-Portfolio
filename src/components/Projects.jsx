@@ -1,8 +1,10 @@
 import React from 'react'
 import TravelWebsite from '../assets/travel-website.png'
-import BootStrapWebsite from '../assets/bootstrap-website.png'
 import WorkImg from '../assets/workImg.jpeg'
-import RealEstate from '../assets/realestate.jpg'
+import Todo from '../assets/todo.png'
+import Netflix from '../assets/netflix.png'
+import QrGenerator from '../assets/qr-code.png'
+import Calculator from '../assets/calculator.png'
 
 function Projects() {
     return (
@@ -15,74 +17,74 @@ function Projects() {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-                    <div style={{ backgroundImage: `url(${BootStrapWebsite})` }}
+                    <div style={{ backgroundImage: `url(${Netflix})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] md:h-[200px]'>
 
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                BootStrap Application
+                                Netflix Clone
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://react-net-flix-clone.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/Shreejal10/React-Netflix_Clone" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${TravelWebsite})` }}
+                    <div style={{ backgroundImage: `url(${Todo})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] md:h-[200px]'>
 
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                BootStrap Application
+                                Todo App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://react-vite-todo.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/Shreejal10/React-Todo" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div style={{ backgroundImage: `url(${WorkImg})` }}
+                    <div style={{ backgroundImage: `url(${QrGenerator})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] md:h-[200px]'>
 
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                                QR Code Generator
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://js-qrcode.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/Shreejal10/Js-Qr-Code-Generator" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div style={{ backgroundImage: `url(${RealEstate})` }}
+                    <div style={{ backgroundImage: `url(${Calculator})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] md:h-[200px]'>
 
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                                JS Calculator
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://js-app-calculator.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/Shreejal10/Js-Calculator" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
