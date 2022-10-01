@@ -84,17 +84,17 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed felx-col top-[30%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.facebook.com/Shreejal.Dhungana10" target="_blank" rel="noopener noreferrer">
                             Facebook <FaFacebook size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 instagram'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.instagram.com/shreejal_dhungana/" target="_blank" rel="noopener noreferrer">
                             Instagram <FaInstagram size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#171515]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/shreejal10" target="_blank" rel="noopener noreferrer">
                             Github <FaGithub size={30} />
                         </a>
                     </li>
