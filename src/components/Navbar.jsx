@@ -87,6 +87,9 @@ const Navbar = () => {
                     <a href="https://github.com/shreejal10" target="_blank" rel="noopener noreferrer">
                         <FaGithub size={25} />
                     </a>
+                    <a href="https://www.linkedin.com/in/shreejal-dhungana/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin size={30} />
+                    </a>
                 </div>
             </ul>
 
