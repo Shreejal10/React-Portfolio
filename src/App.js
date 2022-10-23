@@ -5,11 +5,11 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { Route, Routes } from 'react-router-dom';
-
+import bg from "./assets/background/Sprinkle.svg"
 
 function App() {
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${bg})` }}>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

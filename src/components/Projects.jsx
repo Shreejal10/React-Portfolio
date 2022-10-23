@@ -1,18 +1,21 @@
-import React from 'react'
-import TravelWebsite from '../assets/travel-website.png'
-import WorkImg from '../assets/workImg.jpeg'
-import Todo from '../assets/todo.png'
-import Netflix from '../assets/netflix.png'
-import QrGenerator from '../assets/qr-code.png'
-import Calculator from '../assets/calculator.png'
+import React from 'react';
+import 'animate.css';
+import TravelWebsite from '../assets/projects/travel-website.png'
+import WorkImg from '../assets/projects/workImg.jpeg'
+import Todo from '../assets/projects/todo.png'
+import Netflix from '../assets/projects/netflix.png'
+import QrGenerator from '../assets/projects/qr-code.png'
+import Calculator from '../assets/projects/calculator.png'
 
 function Projects() {
     return (
-        <div name='work' className='bg-[#0a192f] w-full md:h-screen text-gray-300 pt-16 md:pt-0'>
+        <div name='work' className=' w-full md:h-screen text-gray-300 pt-16 md:pt-0'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#44BB88]'>Projects</p>
-                    <p className='py-6'>Check out some of my recent projects</p>
+                    <div className='animate__animated animate__flipInX'>
+                        <p className='text-4xl text-gray-900 font-bold inline border-b-4 border-[#44BB88]'>Projects</p>
+                    </div>
+                    <p className='py-6 text-gray-500'>Check out some of my recent projects</p>
                 </div>
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import logo from '../assets/logo.png';
-import { FaBars, FaTimes, FaGithub, FaFacebook, FaInstagram, } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+import logo from '../assets/logo/logo.png';
+import { FaBars, FaTimes, FaGithub, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { NavLink } from 'react-router-dom'
 const Navbar = () => {
@@ -10,14 +9,14 @@ const Navbar = () => {
         setNav(!nav);
     }
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+        <div className='md:fixed w-full  md:h-[80px] flex justify-between items-center px-4 '>
             <div>
                 <NavLink to="/" end>
                     <img src={logo} alt="logo" style={{ width: '50px' }} />
                 </NavLink>
             </div>
             {/* Menu */}
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex text-xl'>
                 <li className='hover:text-[#44BB88]'>
                     <NavLink to="/" end  >
                         Home
@@ -52,7 +51,7 @@ const Navbar = () => {
 
 
             {/* Mobile Menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-1/2 w-1/2 h-screen bg-[#0a192f] md:hidden flex flex-col  justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-1/2 w-1/2 h-screen bg-[#BDE0FE] md:hidden flex flex-col  justify-center items-center'}>
                 <li className='py-6 text-3xl hover:text-[#44BB88]'>
                     <NavLink onClick={handleClick} to="/" end>
                         Home
@@ -98,12 +97,12 @@ const Navbar = () => {
                             Github <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#6fc2b0]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
-                            Email <HiOutlineMail size={30} />
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#0366C3]'>
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/shreejal-dhungana/" target="_blank" rel="noopener noreferrer">
+                            LinkedIn <FaLinkedin size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#565f69]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#6fc2b0]'>
                         <a className='flex justify-between items-center w-full text-gray-300' href="/">
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
