@@ -1,7 +1,7 @@
 import React from 'react';
 import 'animate.css';
-import TravelWebsite from '../assets/projects/travel-website.png'
-import WorkImg from '../assets/projects/workImg.jpeg'
+import myNotes from '../assets/projects/myNotes.png'
+import Ecommerce from '../assets/projects/ecommerce.png'
 import Todo from '../assets/projects/todo.png'
 import Netflix from '../assets/projects/netflix.png'
 import QrGenerator from '../assets/projects/qr-code.png'
@@ -20,13 +20,49 @@ function Projects() {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
+                    <div style={{ backgroundImage: `url(${Ecommerce})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] md:h-[200px]'>
+
+                        {/* hover effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                React-Ecommerce
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://react-ecommerce-shreejal.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/Shreejal10/React-Ecommerce" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{ backgroundImage: `url(${myNotes})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] md:h-[200px]'>
+
+                        {/* hover effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                MERN-MyNotes
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://mern-mynotes.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/Shreejal10/React-myNotes" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div style={{ backgroundImage: `url(${Netflix})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] md:h-[200px]'>
 
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Netflix Clone
+                                React-Netflix Clone
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://react-net-flix-clone.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -45,7 +81,7 @@ function Projects() {
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Todo App
+                                React-Todo App
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://react-vite-todo.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -63,7 +99,7 @@ function Projects() {
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                QR Code Generator
+                                JS-QR Code Generator
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://js-qrcode.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -81,49 +117,13 @@ function Projects() {
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                JS Calculator
+                                JS-Calculator
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://js-app-calculator.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="https://github.com/Shreejal10/Js-Calculator" target="_blank" rel="noopener noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div style={{ backgroundImage: `url(${WorkImg})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] md:h-[200px]'>
-
-                        {/* hover effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div style={{ backgroundImage: `url(${TravelWebsite})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] md:h-[200px]'>
-
-                        {/* hover effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                BootStrap Application
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
