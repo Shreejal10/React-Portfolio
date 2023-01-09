@@ -32,7 +32,7 @@ function Projects() {
                                 <a href="https://react-ecommerce-shreejal.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/Shreejal10/React-Ecommerce" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/dshreejal/React-Ecommerce" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -50,7 +50,7 @@ function Projects() {
                                 <a href="https://mern-mynotes.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/Shreejal10/React-myNotes" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/dshreejal/React-myNotes" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -68,7 +68,7 @@ function Projects() {
                                 <a href="https://react-net-flix-clone.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/Shreejal10/React-Netflix_Clone" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/dshreejal/React-Netflix_Clone" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -87,7 +87,7 @@ function Projects() {
                                 <a href="https://react-vite-todo.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/Shreejal10/React-Todo" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/dshreejal/React-Todo" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -105,7 +105,7 @@ function Projects() {
                                 <a href="https://js-qrcode.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/Shreejal10/Js-Qr-Code-Generator" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/dshreejal/Js-Qr-Code-Generator" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -123,7 +123,7 @@ function Projects() {
                                 <a href="https://js-app-calculator.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/Shreejal10/Js-Calculator" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/dshreejal/Js-Calculator" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
